@@ -349,13 +349,13 @@ nav.in li {
   position: absolute;
   bottom: 0;
   left: 48%;
-  color: #80b738;
+  color: #fff;
   padding: 10px;
   & :hover{
-    color: #fff;
+    color: #be2026;
   }
   & :visited, :active, :focus{
-    color:#fff;
+    color:#be2026;
   }
 }
 
@@ -391,98 +391,129 @@ section h2{
     width: 25%;
     margin: 20px auto;
   }
+  & h1 {
+    font-size: 4em;
+    padding-bottom: 10px;
+  }
 }
-.green{
-  color: #80b738;
+.red{
+  color: #be2026;
 }
 
 .style2{
-  background: #80b738;
+  background: #e9e9ea;
   & h5, p {
     max-width: 1000px;
     margin: 0 auto;
     line-height: 1.5em;
   }
-  & p{
+  & h1 {
+    font-size: 4em;
+    padding-bottom: 10px;
+  }
+}
+
+.feature1,.feature2{
+  max-width: 960px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #c4c5c4;
+  & h5{
+    padding-bottom: 2px;
+  }
+  & img {
+    background-color: #abacab;
+    border: 5px solid #cccccb;
+    padding: 3px;
+    position: relative;
+    margin: 0 auto;
+    &:before{
+      background: none;
+      border: 5px solid #fff;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      pointer-events: none;
+      }
+    }
+}
+
+//homeIcons
+.homeIcons{
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  @media (max-width:1200px){
+    width: 100%;
+  }
+  & img {
+    background-color: #be2026;
+    border: 20px solid #fff;
+    padding: 20px;
+    width: 18em;
+    height: 18em;
+    position: relative;
+    margin: 0 auto;
+    &:before{
+      background: none;
+      border: 20px solid #fff;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      pointer-events: none;
+      }
+    }
+    & h5{
+      padding: 20px 30px 40px;
+    }
+  }
+
+//globe
+  .globe{
+    margin: 20px auto;
+  }
+
+  .redBtn {
+    background: #be2026;
+    border-radius: 20px;
+    padding: 12px 15px;
+    text-decoration: none;
     color: #fff;
+    box-shadow: 0 0 0 4px hsl(0, 0%, 100%), 0 0 0 8px hsl(0, 0%, 100%), 0 0 0 10px hsl(0, 0%, 70%);
+    &:before {
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    }
+    &:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-left: 0.5em;
   }
-}
-
-//grid
-.masonry {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #31353A;
-  width:100%;
-  margin: 3% auto 2%;
-
-  &__item {
-    height: 30%;
-    width: calc(100% / 3);
-  }
-
-  img {
-    object-fit: cover;
-    width:100%;
-    height: 100%;
-    filter: grayscale(1);
+  &:hover{
+    color: #000;
     cursor: pointer;
-    transition: filter 1s ease-out;
-  }
-
-  img:hover {
-    filter: grayscale(0);
-  }
-}
-
-@supports (display: grid) {
-  .masonry {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 200px);
-    grid-auto-flow: dense;
-
-    &__item {
-      background: rgba(0,0,0, 0.25);
-      height: auto;
-      width: auto;
-
-      &--1, &--11 {
-        grid-column-end: span 2;
-        grid-row-end: span 2;
-      }
-
-      &--4, &--6, &--7, &--9, &--15 {
-        grid-column-end: span 1;
-        grid-row-end: span 2;
-      }
-
-      &--5 {
-        grid-column-end: span 2;
-        grid-row-end: span 1;
-      }
-    }
-  }
-
-  @media screen and (min-width: 800px)
-  {
-    .masonry {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media screen and (min-width: 1000px)
-  {
-    .masonry {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  @media screen and (min-width: 1200px)
-  {
-    .masonry {
-      grid-template-columns: repeat(5, 1fr);
-    }
   }
 }
 
@@ -522,24 +553,27 @@ article{
   max-width: 1200px;
   margin: 0 auto;
   & h1,h2,h3 {
-    color: #248ca3;
+    color: #be2026;
   }
   & .list{
     padding-top: 1em;
-    color: #248ca3;
+    color: #be2026;
     & p {
       color: #000;
     }
     & h4,h5 {
-      color: #248ca3;
+      color: #be2026;
       font-weight: lighter;
     }
   }
 }
 
 .contain{
-  width: 90%;
-  margin: auto;
+  width:95%;
+}
+
+.black{
+  color:#000;
 }
 
 .larger{
@@ -551,24 +585,24 @@ article{
 .cursive{
   font-size: 2em;
   font-weight: bold;
-  color: #80b738;
+  color: #be2026;
   padding-top: 20px;
 }
 
-//video
-.blog{
-  margin-top: 2em;
-  margin-bottom: 2e,;
-  padding: 2em;
-  background: #80b738;
-  &img {
-    padding:20px;
+.partBorder {
+  margin: 40px 0;
+  & fieldset{
+    border:3px solid #babcbe;
+    padding:10px 30px;
+    border-radius: 0 20px 20px 20px;
   }
-  & h5,p {
-    color: #fff;
-  }
-  .bubble {
-    height: 150px;
+  & legend{
+    color: #be2026;
+    padding: 0 20px 0 10px;
+    display: inline-block;
+    width: 65%;
+    border: 0;
+    font-size: 2em;
   }
 }
 
@@ -599,7 +633,7 @@ a.nx-button:hover{
   color: #1d1d1d;
 }
 .nx-button {
-  background-color: #80b738;
+  background-color: #be2026;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -629,7 +663,7 @@ a.nx-button:hover{
     padding-bottom: 20px;
   }
   & img{
-    border: 10px solid #80b738;
+    border: 10px solid #be2026;
     margin: auto;
     width: 90%;
     margin-bottom: 10px;
@@ -639,14 +673,43 @@ a.nx-button:hover{
   }
   & .name{
     padding: 0 10px;
-    color: #248ca3;
+    color: #be2026;
     & p {
       color: #000;
     }
   }
   & .quote{
     padding: 0 10px;
-    color: #248ca3;
+    color: #323232;
     font-weight: lighter;
   }
+}
+
+
+/** ACCORDIAN **/
+.accordian {
+  list-style:none;
+  margin:0 0 40px;
+  padding:0;
+  border-top:0;
+}
+.accordian header {
+  display:block;
+  margin:0;
+  padding:1em;
+  background:#1a1e25;
+  border-top:1px solid #ddd;
+  border-radius: 20px 20px 0 0;
+  cursor:pointer;
+  color:#fff;
+}
+.accordian section {
+  display:none;
+  padding:1em;
+  background:#e5e4e6;
+  border-top:1px solid #ddd;
+  border-radius: 0 0 20px 20px;
+}
+.accordian section.active {
+  display:block;
 }
