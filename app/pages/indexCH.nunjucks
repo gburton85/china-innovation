@@ -3,7 +3,7 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 
 <!--header-->
 <div class="lang">
@@ -14,7 +14,7 @@
 </div>
 
   <section id="header" class="header">
-    <h1 id="heading">Be an<br> innovator</h1>
+    <h1 id="heading">豆<br> 创新者</h1>
     <h2>Control your future</h2>
        <a href="#one" class="scrolly"><i class="fa fa-angle-down fa-2x"></i></a>
   </section><!--end header-->

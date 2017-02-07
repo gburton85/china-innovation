@@ -33,6 +33,7 @@
       <div class="col-md-3">
         <h5><a href="#">Get in touch!</a></h5>
       </div>
+    </div>
   </footer>
 
 <!--build:js js/main.min.js -->
