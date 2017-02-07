@@ -19,107 +19,107 @@
        <a href="#one" class="scrolly"><i class="fa fa-angle-down fa-2x"></i></a>
   </section><!--end header-->
 
-<section id="one" class="style1">
-  <h2 class="red">Anyone can be an entrepreneur.</h2>
+  <section id="one" class="style1">
+    <h2 class="red">Anyone can be an entrepreneur.</h2>
 
-  <p class="larger red">Exploring Entrepreneurship.<br>
-    Learn why it is important for you and your career.<br>
-    Learn how to think and behave like an entrepreneur.
-  </p>
+    <p class="larger red">Exploring Entrepreneurship.<br>
+      Learn why it is important for you and your career.<br>
+      Learn how to think and behave like an entrepreneur.
+    </p>
 
-  <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.”
-  </p>
+    <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.”
+    </p>
 
-</section>
+  </section>
 
-<section class="style1 style2">
-  <h1>Why become an entrepreneur?</h1>
+  <section class="style1 style2">
+    <h1>Why become an entrepreneur?</h1>
 
-  <div class="homeIcons">
-    <div class="col-md-4">
-      <img src="https://randomuser.me/api/portraits/women/21.jpg" class="img-circle">
-      <h5>Do you have an idea you want to develop into a business?</h5>
+    <div class="homeIcons">
+      <div class="col-md-4">
+        <img src="https://randomuser.me/api/portraits/women/21.jpg" class="img-circle">
+        <h5>Do you have an idea you want to develop into a business?</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="https://randomuser.me/api/portraits/men/51.jpg" class="img-circle">
+        <h5>Does your family have a business you want to support and develop?</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="https://randomuser.me/api/portraits/women/7.jpg" class="img-circle">
+        <h5>If yes, then becoming an entrepreneur can help you achieve you career ambitions.</h5>
+      </div>
+
+    <h4>If yes, then becoming an entrepreneur can help you achieve you career ambitions.</h4>
     </div>
-    <div class="col-md-4">
-      <img src="https://randomuser.me/api/portraits/men/51.jpg" class="img-circle">
-      <h5>Does your family have a business you want to support and develop?</h5>
+
+  </section>
+
+  <section class="style1">
+    <h1>Explore <span class="hidden-xs">entrepreneurship</span></h1>
+    <p class="larger red">Excludat iurgia finis, “Ests atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus.
+    </p>
+
+    <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus erit?
+    </p>
+
+    <img src="images/world.png" class="img-responsive globe">
+
+    <a href="#" class="redBtn">
+    Start here
+    </a>
+
+  </section>
+
+  <section class="style1 style2">
+    <h1 class="red">What the experts say</h1>
+    <p class="larger">Below you can hear what Professors, Career Professionals and students have to say about becoming an entrepreneur.
+    </p>
+
+    <div class="feature1">
+      <div class="row">
+          <div class="col-sm-2 hidden-xs">
+            <img src="https://randomuser.me/api/portraits/women/7.jpg" class="img-circle">
+          </div>
+          <div class="col-sm-10">
+            <h5 class="red">Jay Bal</h5>
+            <p class="red">Professor of Innovation and Entrepreneurship,
+            <br>WMG, University of Warwck.
+            </p>
+
+            <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus erit? Veteresne poetas, an quos et praesens et postera respuat aetas?
+            </p>
+          </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <img src="https://randomuser.me/api/portraits/women/7.jpg" class="img-circle">
-      <h5>If yes, then becoming an entrepreneur can help you achieve you career ambitions.</h5>
-    </div>
-
-  <h4>If yes, then becoming an entrepreneur can help you achieve you career ambitions.</h4>
-  </div>
-
-</section>
-
-<section class="style1">
-  <h1>Explore entrepreneurship</h1>
-  <p class="larger red">Excludat iurgia finis, “Ests atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus.
-  </p>
-
-  <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus erit?
-  </p>
-
-  <img src="images/world.png" class="img-responsive globe">
-
-  <a href="#" class="redBtn">
-  Start here
-  </a>
-
-</section>
-
-<section class="style1 style2">
-  <h1 class="red">What the experts say</h1>
-  <p class="larger">Below you can hear what Professors, Career Professionals and students have to say about becoming an entrepreneur.
-  </p>
-
-  <div class="feature1">
-    <div class="row">
-        <div class="col-sm-2">
-          <img src="https://randomuser.me/api/portraits/women/7.jpg" class="img-circle">
+    <div class="feature2">
+      <div class="row">
+        <div class="col-sm-2 hidden-xs">
+          <img src="https://randomuser.me/api/portraits/women/18.jpg" class="img-circle">
         </div>
         <div class="col-sm-10">
-          <h5 class="red">Jay Bal</h5>
-          <p class="red">Professor of Innovation and Entrepreneurship,
-          <br>WMG, University of Warwck.
+          <h5 class="red">Esther de Perlaky</h5>
+          <p class="red">International Employer Liaison Manager
+          <br>Student Careers & Skills, University of Warwck.
           </p>
 
           <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus erit? Veteresne poetas, an quos et praesens et postera respuat aetas?
           </p>
         </div>
-    </div>
-  </div>
-  <div class="feature2">
-    <div class="row">
-      <div class="col-sm-2">
-        <img src="https://randomuser.me/api/portraits/women/18.jpg" class="img-circle">
-      </div>
-      <div class="col-sm-10">
-        <h5 class="red">Esther de Perlaky</h5>
-        <p class="red">International Employer Liaison Manager
-        <br>Student Careers & Skills, University of Warwck.
-        </p>
-
-        <p>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus erit? Veteresne poetas, an quos et praesens et postera respuat aetas?
-        </p>
       </div>
     </div>
+  </section>
 
-</section>
+  <section class="style1">
+    <h2 class="cursive">Don't build other peoples dreams, build your own!</h2>
+    <p>Hear from students about their experiences as entrepreneurs and how you can take control of your own future and success.
+    </p>
 
-<section class="style1">
-  <h2 class="cursive">Don't build other peoples dreams, build your own!</h2>
-  <p>Hear from students about their experiences as entrepreneurs and how you can take control of your own future and success.
-  </p>
+    <video width="80%"  loop autoplay>
+      <source src="video/morning-routine.mp4" type="video/mp4">
+      <source src="video/morning-routine.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
 
-  <video width="80%"  loop autoplay>
-    <source src="video/morning-routine.mp4" type="video/mp4">
-    <source src="video/morning-routine.webm" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-
-</section>
-
+  </section>
+  
 {% endblock %}

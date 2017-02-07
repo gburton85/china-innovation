@@ -272,7 +272,7 @@ nav.in li {
     line-height: .8em; }
     @media (max-width: 768px) {
       .header h1 {
-        font-size: 8em; } }
+        font-size: 5em; } }
   .header h2 {
     width: 100%;
     color: #fff;
@@ -342,6 +342,9 @@ section h2 {
   .style2 h1 {
     font-size: 4em;
     padding-bottom: 10px; }
+  @media (max-width: 768px) {
+    .style2 h1 {
+      line-height: 1em; } }
 
 .feature1, .feature2 {
   max-width: 960px;
@@ -400,6 +403,9 @@ section h2 {
 
 .globe {
   margin: 20px auto; }
+  @media (max-width: 768px) {
+    .globe {
+      margin-bottom: 40px; } }
 
 .redBtn {
   background: #be2026;
@@ -424,7 +430,6 @@ section h2 {
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
-    /*--adjust as necessary--*/
     color: #fff;
     font-size: 18px;
     padding-left: 0.5em; }
@@ -500,6 +505,10 @@ article {
     width: 65%;
     border: 0;
     font-size: 2em; }
+    @media (max-width: 768px) {
+      .partBorder legend {
+        font-size: 1.4em;
+        width: 90%; } }
 
 .lang {
   position: absolute;
