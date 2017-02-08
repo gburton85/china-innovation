@@ -79,7 +79,7 @@ $.fn.ashCordian = function() {
   });
 };
 
-
+//accordians
 $('#accord1').ashCordian();
 
 $('#accord2').ashCordian();

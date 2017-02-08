@@ -6,6 +6,8 @@
 html {
     position: relative;
     min-height: 100%;
+    width: 100%;
+    overflow-x: hidden!important;
 }
 
 body {
@@ -13,8 +15,8 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 250px;
-  overflow-x: hidden;
   background: #FEFDFB;
+  overflow-x: hidden!important;
 }
 
 p {
@@ -111,6 +113,7 @@ nav {
   height: 100%;
   position: fixed;
   z-index: 100;
+  overflow-x: hidden;
 }
 
 nav.out {
@@ -323,6 +326,12 @@ nav.in li {
     @media (max-width:768px){
       font-size: 5em;
     }
+    @media (max-height:768px){
+      font-size: 7em;
+    }
+    @media (max-width:400px){
+      font-size: 5em;
+    }
   }
   & h2 {
    width: 100%;
@@ -335,9 +344,12 @@ nav.in li {
    top: 75%;
    font-size: 5em;
    line-height: .9em;
-   @media (max-width:768px){
-     font-size: 4rem;
-   }
+     @media (max-width:768px){
+       font-size: 4rem;
+     }
+     @media (max-width:400px){
+       font-size: 3rem;
+     }
    }
   & a:hover,a:visited, a:active, a:focus{
     color: #fff;
@@ -416,7 +428,12 @@ section h2{
       line-height: 1em;
     }
   }
-}
+    @media (max-width:400px){
+      h1 {
+        font-size: 3em;
+      }
+    }
+  }
 
 .feature1,.feature2{
   max-width: 960px;
@@ -679,7 +696,7 @@ a.nx-button:hover{
     width: 90%;
     margin-bottom: 10px;
     @media (max-width:768px){
-      max-width: 70%;
+      max-width: 200px;
     }
   }
   & .name{
