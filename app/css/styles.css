@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Patua+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 html {
   position: relative;
   min-height: 100%;
@@ -9,7 +11,7 @@ html {
 body {
   background: #fff;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   padding-bottom: 250px;
   background: #FEFDFB;
   overflow-x: hidden !important; }
@@ -18,7 +20,7 @@ p {
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Patua One", cursive; }
+  font-family: "Montserrat", sans-serif; }
 
 .nav-trigger {
   position: fixed;
@@ -121,7 +123,7 @@ nav li {
   position: relative;
   background: #222;
   color: #fff;
-  font-family: "Patua One", cursive; }
+  font-family: "Montserrat", sans-serif; }
   nav li a, nav li a:hover {
     color: #fff; }
 
@@ -267,27 +269,27 @@ nav.in li {
     color: #fff;
     position: absolute;
     margin: 0;
-    font-family: "Patua One", cursive;
+    font-family: "Montserrat", sans-serif;
     left: 10%;
     display: block;
     top: 40%;
     font-size: 12em;
     line-height: .8em; }
-    @media (max-width: 768px) {
-      .header h1 {
-        font-size: 5em; } }
     @media (max-height: 768px) {
       .header h1 {
         font-size: 7em; } }
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
       .header h1 {
-        font-size: 5em; } }
+        font-size: 6em; } }
+    @media (max-width: 465px) {
+      .header h1 {
+        font-size: 4em; } }
   .header h2 {
     width: 100%;
     color: #fff;
     position: absolute;
     margin: 0;
-    font-family: "Patua One", cursive;
+    font-family: "Montserrat", sans-serif;
     left: 10%;
     display: block;
     top: 75%;
@@ -298,7 +300,7 @@ nav.in li {
         font-size: 4rem; } }
     @media (max-width: 400px) {
       .header h2 {
-        font-size: 3rem; } }
+        font-size: 2.8rem; } }
   .header a:hover, .header a:visited, .header a:active, .header a:focus {
     color: #fff; }
 
