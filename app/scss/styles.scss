@@ -1,9 +1,7 @@
 // styles.scss
 //fonts
-@import url(https://fonts.googleapis.com/css?family=Patua+One);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,700,800|Roboto:300,400,700');
+
 //general
 html {
     position: relative;
@@ -15,8 +13,8 @@ html {
 body {
   background: #fff;
   height: 100%;
-  font-family: 'Ubuntu', sans-serif;
-  padding-bottom: 250px;
+  font-family: 'Roboto', sans-serif;;
+  padding-bottom: 150px;
   background: #FEFDFB;
   overflow-x: hidden!important;
 }
@@ -25,7 +23,11 @@ p {
   line-height: 1.5;
 }
 h1,h2,h3,h4,h5{
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-weight: 800;
 }
 
 //burger
@@ -141,13 +143,21 @@ nav ul {
   padding: 0;
 }
 
-nav li {
-  height: 12.5%;
-  position: relative;
-  background: #222;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  & a, a:hover {
+nav ul {
+  li {
+    height: 10%;
+    padding: 10px;
+    position: relative;
+    background: #222;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  li:nth-of-type(odd){
+    a, a:hover {
+      color: #ccc;
+    }
+  }
+  a, a:hover {
     color: #fff;
   }
 }
@@ -302,13 +312,12 @@ nav.in li {
   height: 16px;
   top: 50%;
   margin-top: -8px;
-  text-transform: uppercase;
 }
 
 //header
 .header {
   background: #31353A;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
+  background: url(../images/home-preuk.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -319,20 +328,21 @@ nav.in li {
   color: #fff;
   position: absolute;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   left: 10%;
   display: block;
-  top: 40%;
+  top: 36%;
   font-size: 12em;
   line-height: .8em;
+  font-weight: 800;
+    @media (max-width:768px){
+    font-size: 5em;
+    }
     @media (max-height:768px){
-      font-size: 7em;
+    font-size: 7em;
     }
-    @media (max-width:500px){
-      font-size: 6em;
-    }
-    @media (max-width:465px){
-      font-size: 4em;
+    @media (max-width:400px){
+    font-size: 5em;
     }
   }
   & h2 {
@@ -340,17 +350,17 @@ nav.in li {
    color: #fff;
    position: absolute;
    margin: 0;
-   font-family: "Montserrat", sans-serif;
+   font-family: 'Montserrat', sans-serif;
    left: 10%;
    display: block;
-   top: 75%;
+   top: 70%;
    font-size: 5em;
    line-height: .9em;
      @media (max-width:768px){
-       font-size: 4rem;
-     }
+         font-size: 4rem;
+       }
      @media (max-width:400px){
-       font-size: 2.8rem;
+       font-size: 3rem;
      }
    }
   & a:hover,a:visited, a:active, a:focus{
@@ -363,23 +373,23 @@ nav.in li {
   position: absolute;
   bottom: 0;
   left: 48%;
-  color: #fff;
+  color: #80b738;
   padding: 10px;
   & :hover{
-    color: #be2026;
+    color: #fff;
   }
   & :visited, :active, :focus{
-    color:#be2026;
+    color:#fff;
   }
 }
 
 //subheader
 .subHeader {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
+  background: url(../images/subHeader.png);
   background-size: cover;
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 250px;
   top: 0px;
 }
 
@@ -389,13 +399,14 @@ section h2{
 }
 
 .style1{
-  padding: 5% 10%;
-  text-align: center;
+  padding: 3% 10%;
+  max-width: 1400px;
+  margin: 0 auto;
   & h1,h2,h3,h4,h5,p {
-    max-width: 960px;
     margin: 0 auto;
     line-height: 1.5em;
     padding-bottom: .5em;
+    width: 95%;
   }
   & p {
     padding-bottom: 1.5em;
@@ -405,234 +416,178 @@ section h2{
     width: 25%;
     margin: 20px auto;
   }
-  & h1 {
-    font-size: 4em;
-    padding-bottom: 10px;
+  @media (max-width: 768px){
+    h3 {
+      font-size: 1.2em;
+      padding-bottom: 20px;
+    }
   }
 }
-.red{
-  color: #be2026;
+.green{
+  color: #80b738;
 }
 
 .style2{
-  background: #e9e9ea;
+  background: #80b738;
   & h5, p {
     max-width: 1000px;
     margin: 0 auto;
     line-height: 1.5em;
   }
-  & h1 {
-    font-size: 4em;
-    padding-bottom: 10px;
+  & p{
+    color: #fff;
   }
-  @media (max-width:768px){
-    h1 {
-      line-height: 1em;
-    }
-  }
-    @media (max-width:400px){
-      h1 {
-        font-size: 3em;
-      }
-    }
-  }
-
-.feature1,.feature2{
-  max-width: 960px;
-  margin: 20px auto;
-  text-align: left;
-  padding: 20px;
-  border: 1px solid #c4c5c4;
-  & h5{
-    padding-bottom: 2px;
-  }
-  & img {
-    background-color: #abacab;
-    border: 5px solid #cccccb;
-    padding: 3px;
-    position: relative;
-    margin: 0 auto;
-    &:before{
-      background: none;
-      border: 5px solid #fff;
-      content: "";
-      display: block;
-      position: absolute;
-      top: 5px;
-      left: 5px;
-      right: 5px;
-      bottom: 5px;
-      pointer-events: none;
-      }
-    }
 }
 
-//homeIcons
-.homeIcons{
-  padding: 20px;
-  width: 80%;
-  margin: auto;
-  @media (max-width:1200px){
-    width: 100%;
+//grid
+.masonry {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3% auto 2%;
+  max-width: 1065px;
+
+  &__item {
+    height: 30%;
+    width: calc(100% / 3);
   }
-  & img {
-    background-color: #be2026;
-    border: 20px solid #fff;
-    padding: 20px;
-    width: 18em;
-    height: 18em;
-    position: relative;
-    margin: 0 auto;
-    &:before{
-      background: none;
-      border: 20px solid #fff;
-      content: "";
-      display: block;
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      right: 20px;
-      bottom: 20px;
-      pointer-events: none;
+
+  img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    filter: grayscale(.1);
+    cursor: pointer;
+    transition: filter .8s ease-out;
+  }
+
+  img:hover {
+    filter: brightness(1.2);
+  }
+}
+
+@supports (display: grid) {
+  .masonry {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    grid-auto-flow: dense;
+
+    &__item {
+      background: rgba(0,0,0, 0.25);
+      height: auto;
+      width: auto;
+
+      &--1, &--11 {
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+      }
+
+      &--4, &--6, &--7, &--9, &--15 {
+        grid-column-end: span 1;
+        grid-row-end: span 2;
+      }
+
+      &--5 {
+        grid-column-end: span 2;
+        grid-row-end: span 1;
       }
     }
-    & h5{
-      padding: 20px 30px 40px;
+  }
+
+  @media screen and (min-width: 800px)
+  {
+    .masonry {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
-//globe
-  .globe{
-    margin: 20px auto;
-    @media (max-width:768px){
-      margin-bottom: 40px;
+  @media screen and (min-width: 1000px)
+  {
+    .masonry {
+      grid-template-columns: repeat(4, 1fr);
     }
   }
 
-  .redBtn {
-    background: #be2026;
-    border-radius: 20px;
-    padding: 12px 15px;
-    text-decoration: none;
-    color: #fff;
-    box-shadow: 0 0 0 4px hsl(0, 0%, 100%), 0 0 0 8px hsl(0, 0%, 100%), 0 0 0 10px hsl(0, 0%, 70%);
-    &:before {
-    content: "\f005";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: none;
-    /*--adjust as necessary--*/
-    color: #fff;
-    font-size: 18px;
-    padding-right: 0.5em;
+  @media screen and (min-width: 1200px)
+  {
+    .masonry {
+      grid-template-columns: repeat(5, 1fr);
     }
-    &:after {
-    content: "\f005";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    padding-left: 0.5em;
-  }
-  &:hover{
-    color: #000;
-    cursor: pointer;
   }
 }
 
 //footer
 footer {
-  height: 250px;
+  height: 150px;
   background: #31353A;
   font-size: 12px;
   color: #CCC;
   position: absolute;
   bottom: 0;
   width: 100%;
-  & .fa{
-    color: #ccc;
-    padding: 5px;
-  }
-  & .row {
-    padding: 3% 10%;
-    color: #FFF;
-    font-size: 2.125rem;
-  }
   & img {
     max-height:100px;
     padding-top: 20px;
-  }
-  & h5 a{
-    color: #fff;
-  }
-  & h5 a:hover{
-    color: #80b738;
+    display: inline-block;
   }
 }
 
 //article styles
 article{
-  padding: 3% 10%;
-  max-width: 1200px;
+  padding: 2% 10%;
+  max-width: 1400px;
   margin: 0 auto;
   & h1,h2,h3 {
-    color: #be2026;
+    color: #80b738;
   }
   & .list{
     padding-top: 1em;
-    color: #be2026;
+    color: #80b738;
     & p {
       color: #000;
     }
     & h4,h5 {
-      color: #be2026;
-      font-weight: lighter;
+      color: #80b738;
     }
   }
 }
 
 .contain{
-  width:95%;
-}
-
-.black{
-  color:#000;
+  width: 90%;
+  margin: auto;
 }
 
 .larger{
   font-size: 1.3em;
   padding-top: 1em;
-  padding-bottom: 1em;
+}
+
+.noPad{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .cursive{
   font-size: 2em;
   font-weight: bold;
-  color: #be2026;
+  color: #80b738;
   padding-top: 20px;
 }
 
-.partBorder {
-  margin: 40px 0;
-  & fieldset{
-    border:3px solid #babcbe;
-    padding:10px 30px;
-    border-radius: 0 20px 20px 20px;
+//video
+.blog{
+  margin-top: 2em;
+  margin-bottom: 2e,;
+  padding: 2em;
+  background: #80b738;
+  &img {
+    padding:20px;
   }
-  & legend{
-    color: #be2026;
-    padding: 0 20px 0 10px;
-    display: inline-block;
-    width: 65%;
-    border: 0;
-    font-size: 2em;
-    @media (max-width: 768px){
-      font-size: 1.4em;
-      width: 90%;
-    }
+  & h5,p {
+    color: #fff;
+  }
+  .bubble {
+    height: 150px;
   }
 }
 
@@ -640,7 +595,7 @@ article{
 .lang{
   position: absolute;
   top: 0;
-  left: -40px;
+  right: 80px;
   color: #fff;
   padding: 10px;
   z-index: 99;
@@ -650,8 +605,35 @@ article{
     float: left;
     padding: 10px;
     & a {
-      color: #ccc;
+      color: #fff;
     }
+  }
+}
+
+//logo
+.logo{
+  position: absolute;
+  top: 0;
+  left: 40px;
+  color: #fff;
+  padding: 10px;
+  z-index: 99;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  background: url('../images/logobkground.svg');
+  background-size: 300px 60px, contain;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: none;
+  & img{
+  height:40px;
+  width:40px;
+  margin-left: -5px;
+  margin-right: -5px;
+  }
+  & a {
+    color: #fff;
   }
 }
 
@@ -663,13 +645,13 @@ a.nx-button:hover{
   color: #1d1d1d;
 }
 .nx-button {
-  background-color: #be2026;
+  background-color: #80b738;
   width: 50px;
   height: 50px;
   position: absolute;
   left: 75%;
   transform: translateX(-50%);
-  top: 175px;
+  bottom: 125px;
   border-radius: 50%;
   box-shadow: 0px 0px 7px #555;
   color: #fff;
@@ -677,6 +659,7 @@ a.nx-button:hover{
   line-height: 50px;
   text-align: center;
   transition: 300ms ease;
+  z-index: 99;
   @media (max-width:1600px){
     left: 85%;
   }
@@ -692,10 +675,10 @@ a.nx-button:hover{
     padding-top: 40px;
     padding-bottom: 20px;
   }
-  & img{
-    border: 10px solid #be2026;
+  & img.profile{
+    border: 10px solid #80b738;
     margin: auto;
-    width: 90%;
+    width: 80%;
     margin-bottom: 10px;
     @media (max-width:768px){
       max-width: 200px;
@@ -703,43 +686,65 @@ a.nx-button:hover{
   }
   & .name{
     padding: 0 10px;
-    color: #be2026;
+    color: #80b738;
     & p {
       color: #000;
     }
   }
   & .quote{
     padding: 0 10px;
-    color: #323232;
-    font-weight: lighter;
+    font-weight: 200;
+    & .quoteMarks{
+      padding:5px 0;
+    }
   }
 }
 
+//home text
+.home--text{
+  & h5{
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-top: 1em;
+  }
+  & h3 {
+    color: #333;
+  }
+}
 
-/** ACCORDIAN **/
-.accordian {
-  list-style:none;
-  margin:0 0 40px;
-  padding:0;
-  border-top:0;
+hr.green{
+  background-color: #80b738;
+  height: 3px;
+  border: 0;
+  width: 75%;
+  max-width: 1100px;
+  margin:0 auto;
 }
-.accordian header {
-  display:block;
-  margin:0;
-  padding:1em;
-  background:#1a1e25;
-  border-top:1px solid #ddd;
-  border-radius: 20px 20px 0 0;
-  cursor:pointer;
-  color:#fff;
+
+.black {
+  color: #333;
 }
-.accordian section {
-  display:none;
-  padding:1em;
-  background:#e5e4e6;
-  border-top:1px solid #ddd;
-  border-radius: 0 0 20px 20px;
-}
-.accordian section.active {
-  display:block;
+
+//coloured divs
+.greyDiv {
+  background: #f3f3f3;
+  height: 270px;
+  padding: 30px;
+  margin: 20px -15px 50px;
+  & .panel {
+    border-radius: 0px;
+  }
+  & .quoteMarks {
+    padding-bottom: 10px;
+  }
+  & .featureQuote{
+    padding-left: 0;
+  }
+  & img.profile{
+    border: 10px solid #929291;
+    max-width: 150px;
+  }
+  & .name {
+    color: #333;
+  }
 }

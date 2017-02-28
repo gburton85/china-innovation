@@ -1,0 +1,5 @@
+<!-- logo.nunjucks -->
+<!--logo-->
+<div class="logo">
+  <a href="index.html">prepare<image src="images/2Logo.svg"><b>Getahead</b></a>
+</div>
