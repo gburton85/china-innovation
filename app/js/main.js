@@ -83,3 +83,12 @@ $.fn.ashCordian = function() {
 $('#accord1').ashCordian();
 
 $('#accord2').ashCordian();
+
+//scroll reveal
+window.sr = ScrollReveal();
+sr.reveal('h1', { duration: 800 });
+sr.reveal('h2', { duration: 800 });
+sr.reveal('h3', { duration: 800 });
+sr.reveal('h4', { duration: 800 });
+sr.reveal('.profile', { duration: 1000 });
+sr.reveal('.masonry__item', { duration: 1000 }, 50);

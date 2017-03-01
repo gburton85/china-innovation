@@ -31,6 +31,7 @@
 <!--build:js js/main.min.js -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
     <script src="js/main.js"></script>
   <!-- endbuild -->
 </body>
