@@ -317,7 +317,8 @@ nav.in li {
 //header
 .header {
   background: #31353A;
-  background: url(../images/home-preuk.jpg);
+  background: linear-gradient(to right top, #333, transparent 90%),
+              url(../images/innovate-home.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -373,7 +374,7 @@ nav.in li {
   position: absolute;
   bottom: 0;
   left: 48%;
-  color: #80b738;
+  color: #fbb102;
   padding: 10px;
   & :hover{
     color: #fff;
@@ -385,7 +386,7 @@ nav.in li {
 
 //subheader
 .subHeader {
-  background: url(../images/subHeader.png);
+  background: url(../images/lightbulbs.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -407,12 +408,16 @@ section h2{
     line-height: 1.5em;
     padding-bottom: .5em;
     width: 95%;
+    color: #4d4d4c;
+  }
+  & h3 {
+    color: #008bbf;
   }
   & p {
     padding-bottom: 1.5em;
   }
   & hr{
-    border-color: #80b738;
+    border-color: #fbb102;
     width: 25%;
     margin: 20px auto;
   }
@@ -423,12 +428,12 @@ section h2{
     }
   }
 }
-.green{
-  color: #80b738;
+.orange{
+  color: #fbb102;
 }
 
 .style2{
-  background: #80b738;
+  background: #fbb102;
   & h5, p {
     max-width: 1000px;
     margin: 0 auto;
@@ -538,16 +543,16 @@ article{
   max-width: 1400px;
   margin: 0 auto;
   & h1,h2,h3 {
-    color: #80b738;
+    color: #1196c4;
   }
   & .list{
     padding-top: 1em;
-    color: #80b738;
+    color: #1196c4;
     & p {
       color: #000;
     }
     & h4,h5 {
-      color: #80b738;
+      color: #1196c4;
     }
   }
 }
@@ -555,6 +560,10 @@ article{
 .contain{
   width: 90%;
   margin: auto;
+}
+
+h1.xl{
+  font-size: 4em;
 }
 
 .larger{
@@ -570,7 +579,7 @@ article{
 .cursive{
   font-size: 2em;
   font-weight: bold;
-  color: #80b738;
+  color: #fbb102;
   padding-top: 20px;
 }
 
@@ -579,7 +588,7 @@ article{
   margin-top: 2em;
   margin-bottom: 2e,;
   padding: 2em;
-  background: #80b738;
+  background: #fbb102;
   &img {
     padding:20px;
   }
@@ -645,7 +654,7 @@ a.nx-button:hover{
   color: #1d1d1d;
 }
 .nx-button {
-  background-color: #80b738;
+  background-color: #fbb102;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -676,7 +685,7 @@ a.nx-button:hover{
     padding-bottom: 20px;
   }
   & img.profile{
-    border: 10px solid #80b738;
+    border: 10px solid #fda800;
     margin: auto;
     width: 80%;
     margin-bottom: 10px;
@@ -686,7 +695,7 @@ a.nx-button:hover{
   }
   & .name{
     padding: 0 10px;
-    color: #80b738;
+    color: #fda800;
     & p {
       color: #000;
     }
@@ -706,39 +715,54 @@ a.nx-button:hover{
     font-weight: 600;
     font-size: 1.1em;
     padding-top: 1em;
+    color: #4d4d4c;
   }
   & h3 {
-    color: #333;
+    color: #4d4d4c;
   }
 }
 
-hr.green{
-  background-color: #80b738;
+hr.blue{
+  background-color: #008bbf;
   height: 3px;
   border: 0;
   width: 75%;
   max-width: 1100px;
-  margin:0 auto;
+  margin:-20px auto 0;
 }
 
 .black {
-  color: #333;
+  color: #4d4d4c;
+}
+
+.blue {
+  color: #1196c4;
 }
 
 //coloured divs
+
+.blueDiv {
+  background: #008bbf;
+  height: auto;
+  padding: 30px;
+  margin: 20px 0 50px;
+  color: #fff;
+  border-radius: 0px 20px 20px 0;
+  & h1{
+    color: #fff;
+  }
+}
+
 .greyDiv {
   background: #f3f3f3;
   height: 270px;
   padding: 30px;
-  margin: 20px -15px 50px;
+  margin: 20px 0 50px;
   & .panel {
     border-radius: 0px;
   }
   & .quoteMarks {
     padding-bottom: 10px;
-  }
-  & .featureQuote{
-    padding-left: 0;
   }
   & img.profile{
     border: 10px solid #929291;
@@ -747,4 +771,43 @@ hr.green{
   & .name {
     color: #333;
   }
+}
+
+/** ACCORDIAN **/
+.reveal{
+  margin-top: 40px;
+}
+.accordian {
+  list-style:none;
+  margin:0 0 40px;
+  padding:0;
+  border-top:0;
+}
+.accordian header {
+  display:block;
+  margin:0;
+  padding:1em;
+  background:#008bbf;
+  border-top:1px solid #ddd;
+  border-radius: 20px 20px 0 0;
+  cursor:pointer;
+  & h1{
+  color:#fff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  }
+  & .fa-chevron-down{
+  color:#fff;
+  margin-top: 30px;
+  }
+}
+.accordian section {
+  display:none;
+  padding:1em;
+  background:#e7e7e7;
+  border-top:1px solid #ddd;
+  border-radius: 0 0 20px 20px;
+}
+.accordian section.active {
+  display:block;
 }

@@ -262,7 +262,7 @@ nav.in li {
 
 .header {
   background: #31353A;
-  background: url(../images/home-preuk.jpg);
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/innovate-home.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -313,7 +313,7 @@ nav.in li {
   position: absolute;
   bottom: 0;
   left: 48%;
-  color: #80b738;
+  color: #fbb102;
   padding: 10px; }
   .scrolly :hover {
     color: #fff; }
@@ -321,7 +321,7 @@ nav.in li {
     color: #fff; }
 
 .subHeader {
-  background: url(../images/subHeader.png);
+  background: url(../images/lightbulbs.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -339,11 +339,14 @@ section h2 {
     margin: 0 auto;
     line-height: 1.5em;
     padding-bottom: .5em;
-    width: 95%; }
+    width: 95%;
+    color: #4d4d4c; }
+  .style1 h3 {
+    color: #008bbf; }
   .style1 p {
     padding-bottom: 1.5em; }
   .style1 hr {
-    border-color: #80b738;
+    border-color: #fbb102;
     width: 25%;
     margin: 20px auto; }
   @media (max-width: 768px) {
@@ -351,11 +354,11 @@ section h2 {
       font-size: 1.2em;
       padding-bottom: 20px; } }
 
-.green {
-  color: #80b738; }
+.orange {
+  color: #fbb102; }
 
 .style2 {
-  background: #80b738; }
+  background: #fbb102; }
   .style2 h5, .style2 p {
     max-width: 1000px;
     margin: 0 auto;
@@ -428,18 +431,21 @@ article {
   max-width: 1400px;
   margin: 0 auto; }
   article h1, article h2, article h3 {
-    color: #80b738; }
+    color: #1196c4; }
   article .list {
     padding-top: 1em;
-    color: #80b738; }
+    color: #1196c4; }
     article .list p {
       color: #000; }
     article .list h4, article .list h5 {
-      color: #80b738; }
+      color: #1196c4; }
 
 .contain {
   width: 90%;
   margin: auto; }
+
+h1.xl {
+  font-size: 4em; }
 
 .larger {
   font-size: 1.3em;
@@ -452,14 +458,14 @@ article {
 .cursive {
   font-size: 2em;
   font-weight: bold;
-  color: #80b738;
+  color: #fbb102;
   padding-top: 20px; }
 
 .blog {
   margin-top: 2em;
   margin-bottom: 2e;
   padding: 2em;
-  background: #80b738; }
+  background: #fbb102; }
   .blogimg {
     padding: 20px; }
   .blog h5, .blog p {
@@ -512,7 +518,7 @@ a.nx-button:hover {
   color: #1d1d1d; }
 
 .nx-button {
-  background-color: #80b738;
+  background-color: #fbb102;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -541,7 +547,7 @@ a.nx-button:hover {
       padding-top: 40px;
       padding-bottom: 20px; } }
   .sideBar img.profile {
-    border: 10px solid #80b738;
+    border: 10px solid #fda800;
     margin: auto;
     width: 80%;
     margin-bottom: 10px; }
@@ -550,7 +556,7 @@ a.nx-button:hover {
         max-width: 200px; } }
   .sideBar .name {
     padding: 0 10px;
-    color: #80b738; }
+    color: #fda800; }
     .sideBar .name p {
       color: #000; }
   .sideBar .quote {
@@ -562,35 +568,83 @@ a.nx-button:hover {
 .home--text h5 {
   font-weight: 600;
   font-size: 1.1em;
-  padding-top: 1em; }
+  padding-top: 1em;
+  color: #4d4d4c; }
 
 .home--text h3 {
-  color: #333; }
+  color: #4d4d4c; }
 
-hr.green {
-  background-color: #80b738;
+hr.blue {
+  background-color: #008bbf;
   height: 3px;
   border: 0;
   width: 75%;
   max-width: 1100px;
-  margin: 0 auto; }
+  margin: -20px auto 0; }
 
 .black {
-  color: #333; }
+  color: #4d4d4c; }
+
+.blue {
+  color: #1196c4; }
+
+.blueDiv {
+  background: #008bbf;
+  height: auto;
+  padding: 30px;
+  margin: 20px 0 50px;
+  color: #fff;
+  border-radius: 0px 20px 20px 0; }
+  .blueDiv h1 {
+    color: #fff; }
 
 .greyDiv {
   background: #f3f3f3;
   height: 270px;
   padding: 30px;
-  margin: 20px -15px 50px; }
+  margin: 20px 0 50px; }
   .greyDiv .panel {
     border-radius: 0px; }
   .greyDiv .quoteMarks {
     padding-bottom: 10px; }
-  .greyDiv .featureQuote {
-    padding-left: 0; }
   .greyDiv img.profile {
     border: 10px solid #929291;
     max-width: 150px; }
   .greyDiv .name {
     color: #333; }
+
+/** ACCORDIAN **/
+.reveal {
+  margin-top: 40px; }
+
+.accordian {
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+  border-top: 0; }
+
+.accordian header {
+  display: block;
+  margin: 0;
+  padding: 1em;
+  background: #008bbf;
+  border-top: 1px solid #ddd;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer; }
+  .accordian header h1 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0px; }
+  .accordian header .fa-chevron-down {
+    color: #fff;
+    margin-top: 30px; }
+
+.accordian section {
+  display: none;
+  padding: 1em;
+  background: #e7e7e7;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 20px 20px; }
+
+.accordian section.active {
+  display: block; }
