@@ -450,10 +450,11 @@ section h2{
   flex-wrap: wrap;
   margin: 3% auto 2%;
   max-width: 1065px;
-
+  background: #FEFDFB;
   &__item {
     height: 30%;
     width: calc(100% / 3);
+    margin-top: -1px;
   }
 
   img {

@@ -370,10 +370,12 @@ section h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 3% auto 2%;
-  max-width: 1065px; }
+  max-width: 1065px;
+  background: #FEFDFB; }
   .masonry__item {
     height: 30%;
-    width: calc(100% / 3); }
+    width: calc(100% / 3);
+    margin-top: -1px; }
   .masonry img {
     object-fit: cover;
     width: 100%;
