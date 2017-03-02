@@ -322,7 +322,7 @@ nav.in li {
     color: #fff; }
 
 .subHeader {
-  background: url(../images/lightbulbs.jpg);
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/lightbulbs.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
