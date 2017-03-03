@@ -20,32 +20,21 @@
 <div class="row">
   <div class="col-md-9 col-sm-8">
     <div class="contain">
-      <h1 class="xl">Think differently</h1>
+      <h1 class="xl black">1. Think <span class="blue">differently</span></h1>
       <p class="larger blue">
-        Understanding more about yourself will help you to start your career journey AND make you more employable.
+        Thinking differently is the first step to develop your innovation skills or become an entrepreneur.
       </p>
-      <p>Use this section to find out more about yourself, your skills and abilities, personality and strengths.
-      </p>
-      <p>Understanding yourself is the first step in developing your career journey and your career plan. The great news about developing your career plan is that there are no right or wrong answers, as it’s all about you and what you would like to achieve, no matter what your goals are.
-        Vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-mense vel anno.
+      <p>Have a look at the Thinking Differently case study video to see how a different way of thinking helped a group of university students to create an innovative student grocery delivery business.
       </p>
 
-      <div class="list">
-        <h5>Find out more about yourself, find out:</h5>
-        <ul>
-          <li><p>What interests and motivates you</p>
-          </li>
-          <li><p>Your current skills and abilities</p>
-          </li>
-          <li><p>Your personality type</p>
-          </li>
-          <li><p>Your strengths</p>
-          </li>
-        </ul>
-      </div>
-
-      <h2>Use the tasks below to understand more:</h2>
+        <div class="row panel video">
+          <div class="col-sm-12">
+            <video width="100%" controls>
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
 
     </div><!-- end contian-->
 </div> <!--end col-->
@@ -54,15 +43,13 @@ mense vel anno.
     <div class="sideBar">
       <img src="https://randomuser.me/api/portraits/women/21.jpg" class="img-circle profile">
 
-      <div class="name">
-        <h5><b>Wang Jianlin</b></h5>
-        <h5>BA Hons in Business</h5>
-        <p>Oxford University</p>
-      </div>
       <div class="quote">
         <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-          <em>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-mense vel anno.</em>
+          <em>Initially, I was stuck on a single way to go ahead with my start-up. However, it was after many pivots that I found the right model to launch the product.  Three months after our launch, we are still pivoting our business to make it customer-oriented!
+          </em>
+      </div>
+      <div class="name">
+        <h5>Graduate innovator</h5>
       </div>
 
     </div>
@@ -72,54 +59,46 @@ mense vel anno.</em>
 
 <div class="row">
     <div class="contain">
-      <div class="greyDiv">
-        <div class="row">
-          <div class="panel col-md-7">
-            <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
-            <div class="list">
-              <ul>
-                <li><p>How woul d your best friend describe you?</p>
-                </li>
-                <li><p>Read the student blog – what have you learned?</p>
-                </li>
-                <li><p>Prospects skills audit (SQ)</p>
-                </li>
-                <li><p>Abilities?</p>
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-            <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-              <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-    mense vel anno.</em></p>
-              <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-            mense vel anno.</em></p>
-            <div class="name">
-                <h5>Wang Jianlin</h5>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="reveal">
+       <ul id="accord3" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-sm-11 col-xs-12">
+                  <h1>Case Study: Convvibo </h1>
+               </div>
+               <div class="col-sm-1 hidden-xs">
+                   <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+              <p>The story of a business called Convibo illustrates how thinking differently led three university students to look at grocery deliveries in a whole new way.  This case study shows the students’ journey, the changes to their idea (called pivot points) and the resulting innovative and successful business they created.
+              </p>
+           </section>
+         </li>
+       </ul>
 
-      <div class="blueDiv">
-        <div class="row">
-          <div class="col-sm-7">
-            <h1>Career Plan</h1>
-            <p>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.</p>
-            <p>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-          mense vel anno.</p>
-          </div>
-          <div class="col-sm-5">
-            <video width="100%" controls>
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-              Your browser does not support HTML5 video.
-            </video>
-          </div>
-        </div>
-      </div>
+       <ul id="accord4" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-xs-11">
+                 <h1>Case Study: Touchstone</h1>
+               </div>
+               <div class="col-xs-1">
+                 <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+             <p>You won’t get a great business in one step from your original idea. It involves a journey of making a series of changes (called pivots) as you come to understand your business and customers better. Most successful start-ups go through between 3-5 pivot points. Even for existing businesses, it is a good idea to constantly examine and rethink the business on a regular basis.
+             </p>
+           </section>
+         </li>
+       </ul>
+     </div><!-- end accordian reveals-->
 
     </div><!-- end contain-->
 </div><!-- end row-->

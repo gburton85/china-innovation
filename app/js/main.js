@@ -1,3 +1,4 @@
+
 // selected elements
 var navTrigger = document.getElementById('nav-trigger');
 var nav = document.getElementById('nav');
@@ -28,12 +29,6 @@ function resize() {
     labels[i].style.marginTop = '-'+fontSize*0.7+'px';
   }
 
-/* //header size redraw is too slow
-  header.style.height = windowHeight+'px';
-  heading.style.fontSize = headingSize+'px';
-  heading.style.height = headingSize+'px';
-  heading.style.marginTop = '-'+headingSize*0.6+'px';
-*/
 }
 
 function navToggle(e) {
@@ -81,8 +76,11 @@ $.fn.ashCordian = function() {
 
 //accordians
 $('#accord1').ashCordian();
-
 $('#accord2').ashCordian();
+$('#accord3').ashCordian();
+$('#accord4').ashCordian();
+$('#accord5').ashCordian();
+$('#accord6').ashCordian();
 
 //scroll reveal
 window.sr = ScrollReveal();

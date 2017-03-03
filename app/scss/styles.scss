@@ -592,7 +592,7 @@ h1.xl{
 //video
 .blog{
   margin-top: 2em;
-  margin-bottom: 2e,;
+  margin-bottom: 2em;
   padding: 2em;
   background: #fbb102;
   &img {
@@ -715,6 +715,11 @@ a.nx-button:hover{
   }
 }
 
+.name{
+    padding: 0 10px;
+    color: #80b738;
+  }
+
 //home text
 .home--text{
   & h5{
@@ -759,6 +764,13 @@ hr.blue{
   }
 }
 
+.panel.video{
+  padding: 20px 10px;
+  border-radius: 0px;
+  margin: 20px 0px 20px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+}
+
 .greyDiv {
   background: #f3f3f3;
   height: auto;
@@ -781,7 +793,7 @@ hr.blue{
 
 /** ACCORDIAN **/
 .reveal{
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .accordian {
   list-style:none;
@@ -816,4 +828,30 @@ hr.blue{
 }
 .accordian section.active {
   display:block;
+}
+
+.list-group{
+  padding-top: 10px;
+}
+
+//part border
+.partBorder {
+  margin: 40px 0 10px;
+  & fieldset{
+    border:3px solid #babcbe;
+    padding:10px 30px;
+    border-radius: 0 20px 20px 20px;
+  }
+  & legend{
+    color: #fda800;
+    padding: 0 20px 0 10px;
+    display: inline-block;
+    width: 25%;
+    border: 0;
+    font-size: 2em;
+    @media (max-width: 768px){
+      font-size: 1.4em;
+      width: 90%;
+    }
+  }
 }
