@@ -332,7 +332,7 @@ nav.in li {
   font-family: 'Montserrat', sans-serif;
   left: 10%;
   display: block;
-  top: 36%;
+  top: 48%;
   font-size: 12em;
   line-height: .8em;
   font-weight: 800;
@@ -354,12 +354,12 @@ nav.in li {
    font-family: 'Montserrat', sans-serif;
    left: 10%;
    display: block;
-   top: 70%;
+   top: 76%;
    font-size: 5em;
    line-height: .9em;
      @media (max-width:768px){
          font-size: 4rem;
-         top: 55%;
+         top: 78%;
        }
      @media (max-width:400px){
        font-size: 3rem;
@@ -775,7 +775,7 @@ hr.blue{
   background: #f3f3f3;
   height: auto;
   padding: 30px;
-  margin: 20px 0 50px;
+  margin: 30px 0 40px;
   & .panel {
     border-radius: 0px;
   }
@@ -839,7 +839,7 @@ hr.blue{
   margin: 40px 0 10px;
   & fieldset{
     border:3px solid #babcbe;
-    padding:10px 30px;
+    padding:10px 30px 30px;
     border-radius: 0 20px 20px 20px;
   }
   & legend{
@@ -854,4 +854,14 @@ hr.blue{
       width: 90%;
     }
   }
+}
+
+//h5p
+.h5p-embedded{
+  margin: 20px 0;
+}
+
+//qr
+.qr{
+  margin: 20px 10px;
 }

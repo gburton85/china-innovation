@@ -8,7 +8,7 @@
   <nav id="nav" class="out">
     <ul>
       <li><a href="index.html"><span class="nav-label">Home</span></a></li>
-      <li><a href="sub1.html"><span class="nav-label">1. Thinking differently</span></a></li>
+      <li><a href="sub1.html"><span class="nav-label">1. Think differently</span></a></li>
       <li><a href="sub2.html"><span class="nav-label">2. Creating value</span></a></li>
       <li><a href="sub3.html"><span class="nav-label">3. Win:Win</span></a></li>
       <li><a href="sub4.html"><span class="nav-label">4. Value</span></a></li>

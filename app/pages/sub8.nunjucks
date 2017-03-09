@@ -9,8 +9,8 @@
 <!--content-->
 <div class="lang">
   <ul>
-    <li><a href="sub7.html">EN</a></li>
-    <li><a href="sub7CH.html">CH</a></li>
+    <li><a href="sub8.html">EN</a></li>
+    <li><a href="sub8CH.html">CH</a></li>
   </ul>
 </div>
 
@@ -19,32 +19,24 @@
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1 class="xl">Think differently</h1>
+        <h1 class="xl black">8. Finding <span class="blue">funding</span></h1>
         <p class="larger blue">
-          Understanding more about yourself will help you to start your career journey AND make you more employable.
+        Funding can be very complicated, so it is better to think about funding when the business model has been proven and needs scaling up.
         </p>
-        <p>Use this section to find out more about yourself, your skills and abilities, personality and strengths.
-        </p>
-        <p>Understanding yourself is the first step in developing your career journey and your career plan. The great news about developing your career plan is that there are no right or wrong answers, as it’s all about you and what you would like to achieve, no matter what your goals are.
-          Vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.
+        <p>The initial stage of testing the idea and the associated business model should be designed to be minimal cost. For example, do you need a fully functional app or website right from the start?
         </p>
 
         <div class="list">
-          <h5>Find out more about yourself, find out:</h5>
+          <h5>Consider a two-step process to funding:</h5>
           <ul>
-            <li><p>What interests and motivates you</p>
+            <li><p>Test if people value your business offering – you can do this yourself and for no cost. Creating an appropriate business model for this testing phase might also be helpful.
+                </p>
             </li>
-            <li><p>Your current skills and abilities</p>
-            </li>
-            <li><p>Your personality type</p>
-            </li>
-            <li><p>Your strengths</p>
+            <li><p>Design the business model so that the business can scale-up. Once you have established the demand for your business is there, now is the time to approach funders as you can show that customers want your product or service. Your business will be much more attractive to a funder at this stage.
+                </p>
             </li>
           </ul>
         </div>
-
-        <h2>Use the tasks below to understand more:</h2>
 
       </div><!-- end contian-->
   </div> <!--end col-->
@@ -53,15 +45,13 @@
       <div class="sideBar">
         <img src="https://randomuser.me/api/portraits/women/21.jpg" class="img-circle profile">
 
-        <div class="name">
-          <h5><b>Wang Jianlin</b></h5>
-          <h5>BA Hons in Business</h5>
-          <p>Oxford University</p>
-        </div>
         <div class="quote">
           <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-            <em>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.</em>
+            <em>For start-up entrepreneurs looking for funding, it is critical to understand that funders will need to see proof of the business working and customers actually buying your product or service before they decide to invest their money in your business.
+            </em>
+        </div>
+        <div class="name">
+          <h5>Professor Jay Bal</h5>
         </div>
 
       </div>
@@ -71,41 +61,11 @@
 
   <div class="row">
       <div class="contain">
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-7">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
-              <div class="list">
-                <ul>
-                  <li><p>How woul d your best friend describe you?</p>
-                  </li>
-                  <li><p>Read the student blog – what have you learned?</p>
-                  </li>
-                  <li><p>Prospects skills audit (SQ)</p>
-                  </li>
-                  <li><p>Abilities?</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-      mense vel anno.</em></p>
-                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-              mense vel anno.</em></p>
-              <div class="name">
-                  <h5>Wang Jianlin</h5>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="blueDiv">
           <div class="row">
             <div class="col-sm-7">
-              <h1>Career Plan</h1>
+              <h1>Miss Xio Zhou</h1>
               <p>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
     mense vel anno.</p>
               <p>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno

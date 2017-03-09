@@ -81,6 +81,7 @@ $('#accord3').ashCordian();
 $('#accord4').ashCordian();
 $('#accord5').ashCordian();
 $('#accord6').ashCordian();
+$('#accord7').ashCordian();
 
 //scroll reveal
 window.sr = ScrollReveal();
